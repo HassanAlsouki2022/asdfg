@@ -1,0 +1,108 @@
+
+html{
+    scroll-behavior:auto;
+}
+
+body {
+    background-image: url("planet1.jpg");   
+  
+    background-size: 350vw;
+  
+}
+
+.ehead {
+
+    color:#f4f3f3;
+    font-size: 10px;
+    margin: 0px auto;
+    margin-bottom: 9px;
+    width: 290px;
+    height: 25px;
+    padding: 10px;
+    background-color:rgba(19, 12, 12, 0.541);
+    border-radius: 12px;
+    
+
+}
+
+.ehead h1 {
+    text-align: center;
+    margin:auto;
+}
+
+
+.ihead {
+
+    background-color:#1c1a1a8a;
+    height: 100%;
+    width: 290px;
+    margin: 17px auto;
+    display:grid;
+    border-radius: 12px;   
+}
+
+.ihead a{
+    color: #faf8f8;
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+
+
+
+.text {
+
+    position: relative;
+    z-index: 5;
+    width: 700px;
+    height: auto;
+
+    font-family: 'Roboto', sans-serif;
+
+
+    margin: auto;
+    margin-top: 76px;
+
+    padding: 2rem;
+    box-shadow: 12p
+x 12px 50px #00000098;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+
+.text img{
+    margin: 10px;
+    transition: transform 200ms, box-shadow 200ms;
+    transition-timing-function: ease;
+    border-radius: 12px;
+
+
+}
+.text img:hover{
+    transform: scale(1.015);
+    box-shadow: 3px 3px 20px #00000042;
+}
+
+.footer {
+
+    position: relative;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+
+
+    box-shadow: 12px 12px 50px #00000098;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+
+
+}
